@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url(./header.css);
+@import url(./main_content.css);
+@import url(./footer.css);
+@import url(./media_quary.css);
+:root{
+    --font-Playfair: 'Playfair Display', serif;
+    --font-Quicksand: 'Quicksand', sans-serif;
+    --font-Roboto: 'Roboto', sans-serif;
+    --color-dark: #3c393d;
+    --color-extradark: #2b2b2b;
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: var(--font-Quicksand);
+}
+body{
+    line-height: 1.4;
+    color: var(--color-dark);
+}
+ img{
+    width: 100%;
+    display: block;
+}
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 1.2rem;
+}
+
+
+
+
